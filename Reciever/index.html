@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Decode-verse - Extract Hidden Text</title>
+</head>
+<body>
+  <h2>Decode-verse: Extract Hidden Text</h2>
+  
+  <input type="file" id="imageInput" accept="image/*" />
+  <label for="imageInput">Upload Image</label>
+  
+  <div id="imageContainer">
+    <img id="uploadedImage" src="" alt="Uploaded Image" style="display: none;" />
+  </div>
+  
+  <button id="extractData">Extract Text</button>
+  
+  <div id="output"></div>
+  <canvas id="canvas" style="display: none;"></canvas>
+
+  <script src="./script.js"></script>
+</body>
+</html>
